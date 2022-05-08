@@ -1,0 +1,10 @@
+{% extends 'meetups/layouts/base.html' %}
+{% block body %}
+<!--  -->
+<h3>Meetups</h3>
+{% for meetup in meetups %}
+    {{ meetup.title }}
+{% endfor %}
+<a href="{% url 'with_id' id=1 %}">go</a>
+<!--  -->
+{% endblock %}
