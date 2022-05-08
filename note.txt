@@ -1,0 +1,9 @@
+---- Remember:
+
++ register model use 'admin.site.register(<model-name>)
++ serializer must extends 'serializers.ModelSerializer'
++ Get and Delete method, Serializer dose not take data
+  Post and Put methods, Serializer takes data
+  Put method, Serializer takes instance and data
+
+----------------
